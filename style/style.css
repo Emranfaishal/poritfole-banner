@@ -1,0 +1,180 @@
+/* header tag  */
+/* nav style tag  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.btn-primary{
+    border-radius: 6px;
+    background-color:#FD6E0A ;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+.primay-tixt{
+    color: #FD6E0A;
+}
+
+nav >ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.header{
+     background-color: #FFF8F3;
+     background-image: url(../images/header_bg.png),url(../images/developer.png);
+     background-repeat: no-repeat;
+     background-position: bottom right,left;
+
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-contine{
+    max-width: 500px;
+}
+.banner .profili-pickchir{
+    width: 500px;
+}
+.banner-giding{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0;
+}
+.banner-tixt{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-p{
+    color:#474747;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+/* main section title  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.about-tixt{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-p{
+    color:#75757575;
+    text-align: center;
+    font-size: 18px;
+}
+.about-info-contanar{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.section-dirason{
+    padding: 30px 150px;
+}
+.skill-containar{
+
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(21, 18, 18, 0.06);
+}
+.skill-discapsion{
+    color: #474747;
+}
+main section{
+    margin-top: 130px;
+}
+.resme-colom-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-containar{
+    display: flex;
+    gap: 50px;
+}
+.resme-itam-title{
+    color:#474747;
+    font-size: 25px;
+    font-family: 700;
+    margin-bottom: 10px;
+}
+.resume-itam-info-p{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-itam-info , .resume-itam-info-p{
+    color: #757575;
+}
+.resume-containar hr{
+
+    margin: 30px;
+}
+.download-cb{
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130p 200px;
+}
+
+.footer-colam{
+    width: 50%;
+}
+.contait input ,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #75757575;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+}
+
+.about-p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 20px 0 10px;
+}
